@@ -1,0 +1,16 @@
+{
+  "name": "veloce-aluguel-de-carros",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Protótipo web de gestão de clientes e pedidos de aluguel de carros",
+  "scripts": {
+    "api": "json-server --watch db.json --port 3000",
+    "web": "http-server . -p 8080 -c-1",
+    "dev": "concurrently -k \"npm:api\" \"npm:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "http-server": "^14.1.1",
+    "json-server": "^0.17.4"
+  }
+}

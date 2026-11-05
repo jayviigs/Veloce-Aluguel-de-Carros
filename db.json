@@ -1,0 +1,170 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Marina Costa",
+      "email": "marina@veloce.com",
+      "password": "123456",
+      "role": "client",
+      "cpf": "123.456.789-10",
+      "rg": "MG-18.234.567",
+      "address": "Rua das Acácias, 120 — Belo Horizonte, MG",
+      "profession": "Arquiteta",
+      "incomes": [
+        {
+          "company": "Estúdio Norte",
+          "amount": 8200
+        },
+        {
+          "company": "Projetos livres",
+          "amount": 1800
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rafael Mendes",
+      "email": "rafael@veloce.com",
+      "password": "123456",
+      "role": "client",
+      "cpf": "987.654.321-00",
+      "rg": "MG-12.345.678",
+      "address": "Av. Brasil, 450 — Belo Horizonte, MG",
+      "profession": "Engenheiro",
+      "incomes": [
+        {
+          "company": "Construtora Horizonte",
+          "amount": 12500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ana Agente",
+      "email": "ana@veloce.com",
+      "password": "123456",
+      "role": "agent",
+      "agency": "Veloce Financeira"
+    },
+    {
+      "id": 4,
+      "name": "Bruno Agente",
+      "email": "bruno@veloce.com",
+      "password": "123456",
+      "role": "agent",
+      "agency": "Banco Tropical"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Volvo",
+      "model": "XC40 Recharge",
+      "year": 2025,
+      "plate": "VLC-4A21",
+      "category": "SUV elétrico",
+      "dailyRate": 489,
+      "color": "Cinza Onyx",
+      "available": true,
+      "image": "assets/volvo-xc40.png",
+      "icon": "🚙"
+    },
+    {
+      "id": 2,
+      "brand": "BMW",
+      "model": "320i M Sport",
+      "year": 2024,
+      "plate": "VLC-8T37",
+      "category": "Sedã premium",
+      "dailyRate": 429,
+      "color": "Azul tropical",
+      "available": true,
+      "image": "assets/bmw-320i.png",
+      "icon": "🚘"
+    },
+    {
+      "id": 3,
+      "brand": "Jeep",
+      "model": "Compass Longitude",
+      "year": 2025,
+      "plate": "VLC-2K93",
+      "category": "SUV",
+      "dailyRate": 349,
+      "color": "Branco pérola",
+      "available": true,
+      "image": "assets/jeep-compass.png",
+      "icon": "🚙"
+    },
+    {
+      "id": 4,
+      "brand": "Mini",
+      "model": "Cooper S",
+      "year": 2024,
+      "plate": "VLC-9M15",
+      "category": "Compacto premium",
+      "dailyRate": 319,
+      "color": "Lilac Ash",
+      "available": true,
+      "image": "assets/mini-cooper.png",
+      "icon": "🚗"
+    }
+  ],
+  "rentals": [
+    {
+      "id": 1,
+      "userId": 1,
+      "carId": 1,
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-16",
+      "status": "em análise",
+      "agentId": 3,
+      "rating": 4,
+      "agentNote": "Renda compatível com o valor do contrato.",
+      "createdAt": "2026-11-03T10:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "carId": 2,
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-24",
+      "status": "em consideração",
+      "agentId": 4,
+      "rating": 3,
+      "agentNote": "Aguardando validação complementar de renda.",
+      "createdAt": "2026-11-04T14:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "carId": 3,
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-07",
+      "status": "aprovado",
+      "agentId": 3,
+      "rating": 5,
+      "agentNote": "Perfil aprovado para formalização do contrato.",
+      "createdAt": "2026-10-30T08:15:00.000Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Veloce Financeira"
+    },
+    {
+      "id": 2,
+      "name": "Banco Tropical"
+    }
+  ],
+  "banks": [
+    {
+      "id": 1,
+      "name": "Banco Tropical"
+    },
+    {
+      "id": 2,
+      "name": "Banco Horizonte"
+    }
+  ]
+}
